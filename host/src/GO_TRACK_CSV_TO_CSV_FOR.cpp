@@ -117,10 +117,10 @@ static void freeResources() {
 	if(queue[0]){
 		clReleaseCommandQueue(queue[0]);
   	}
-	if(queue[0]){
+	if(queue[1]){
   		clReleaseCommandQueue(queue[1]);
 	}
-  	if(queue[0]){
+  	if(queue[2]){
 		clReleaseCommandQueue(queue[2]);
 	}
   	if(svm_inputBuffer){
